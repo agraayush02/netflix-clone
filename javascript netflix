@@ -1,0 +1,8 @@
+function sure(){
+    alert("Check your network connectivity:");
+};
+function sign(){
+    var x=document.getElementById("mail").value;
+    document.write(x);
+    document.write("This mail id is not registered!!");
+};
