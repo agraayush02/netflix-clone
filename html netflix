@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix clone</title>
+    <link rel="stylesheet" href="net.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <div class="navbar">
+                <div class="nav_left">
+                    <img src="./assetnet/logonet.png" height="100px" width="200px"/>
+                 
+                </div>
+                <div class="nav_right">
+                    <select id="scroll">
+                       <option value="english">English</option> 
+                       <option value="hindi"><a href="#" >Hindi</a></option> 
+                    </select>
+                    <button id="btn" onclick="sure()">Sign in</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="text">
+            <div class="content">
+                <h2>Unlimited movies,TV shows and more</h2><br>
+                Ready to watch? Enter your mail to create your membership
+                 <ul class="mail_text">
+                        <li> <input type="text " name="mail" id="mail"/>
+                        </li>
+                        <li><button id="btn" onclick="sign()">GET STARTED</button></li>
+                    </ul>
+                
+               
+
+            
+            </div>
+        </div>
+    </div>
+    <div class="break"></div>
+    <div class="second_frame">
+        <div class="second_left">
+            <h1>Create profiles for kids</h1><br>
+            <h3>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+        </div>
+        <div class="second_right">
+            <img src="./assetnet/asset 0.png"/>
+        </div>
+    </div>   
+    <div class="break"></div> 
+    <div class="third_frame">
+        <div class="third_left">
+            <img src="./assetnet/com.png"/> 
+        </div>
+        <div class="third_right">
+            <h1>Watch everywhere</h1><br>
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+            
+        </div>
+    </div> 
+    <div class="break"></div> 
+    <div class="fourth_frame">
+        <div class="fourth_left">
+            <h1>Download your shows to watch offline</h1><br>
+            <h3>Save your favourites easily and always have something to watch.</h3>
+        </div>
+        <div class="fourth_right">
+            <img src="./assetnet/mobile-0819.jpg"/>
+        </div>
+    </div> 
+    <div class="break"></div>    
+    <div class="fifth_frame">
+        <h1>Frequently asked question</h1>
+        <div class="row">
+            <div class="row_text">What is netflix</div>
+            <div class="row_img"><img src="./assetnet/asset 8.svg"></div>
+        </div>
+        <div class="row">
+            <div class="row_text">How much does netflix cost</div>
+            <div class="row_img"><img src="./assetnet/asset 8.svg"></div>
+        </div>
+        <div class="row">
+            <div class="row_text">Where can I watch</div>
+            <div class="row_img"><img src="./assetnet/asset 8.svg"></div>
+        </div>
+        <div class="row">
+            <div class="row_text">How do I cancel</div>
+            <div class="row_img"><img src="./assetnet/asset 8.svg"></div>
+        </div>
+        <div class="row">
+            <div class="row_text">Is netflix good for kids</div>
+            <div class="row_img"><img src="./assetnet/asset 8.svg"></div>
+        </div>
+
+    </div>
+    <div class="break"></div>
+    <div class="sixth_frame">
+        <p>Questions? Call <a href="#">000-800-914</a></p>
+        <div class="footer_link">
+           <ul id="list">
+                
+                <li><a href="#">Faq</a></li>
+                <li><a href="#">Media to watch</a></li>
+                <li><a href="#">Ready center</a></li>
+                <li><a href="#">Cookies</a></li> 
+                <li><a href="#">Speed</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Customer</a></li>
+                <li><a href="#">Binge</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Job</a></li>
+               <li> <a href="#">Account</a></li> 
+                <li><a href="#">Complain</a></li>
+               
+            </ul>
+        </div>
+        <select id="scroll">
+            <option value="english">English</option> 
+            <option value="hindi"><a href="#" >Hindi</a></option> 
+         </select>
+         NETFLIX INDIA.
+
+    </div>
+    
+
+ <script src="app.js"></script>
+</body>
+</html>
